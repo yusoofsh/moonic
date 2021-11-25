@@ -1,6 +1,6 @@
 {
-    "name": "electronic-moonlight-theme",
-    "displayName": "Electronic Moonlight Theme",
+    "name": "moonic",
+    "displayName": "Moonic Theme",
     "description": "A beautifully muted dark theme with subtle vibrance based off Electron and Moonlight II Italic",
     "author": {
         "name": "Isaac Arnold"
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/IsaacArnold/electronic-moonlight-theme"
+        "url": "https://github.com/yusoofsh/moonic"
     },
     "categories": [
         "Themes"
@@ -20,9 +20,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Electronic Moonlight",
+                "label": "Moonic",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Electronic Moonlight Theme-color-theme.json"
+                "path": "./themes/Moonic-color-theme.json"
             }
         ]
     },
