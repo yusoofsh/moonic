@@ -752,13 +752,8 @@
 		},
 		{
 			"scope": [
-				"variable.other.constant",
-				"constant.language",
 				"keyword.other.type.php",
 				"storage.type.php",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
 				"keyword.other.unit"
 			],
 			"settings": {
