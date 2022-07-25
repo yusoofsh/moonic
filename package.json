@@ -3,9 +3,9 @@
     "displayName": "Moonic",
     "description": "A beautifully muted dark theme with subtle vibrance based off Electron and Moonlight II Italic",
     "author": {
-        "name": "Isaac Arnold"
+        "name": "Yusoof SH"
     },
-    "publisher": "isaaccodes",
+    "publisher": "yusoofsh",
     "version": "0.2.0",
     "engines": {
         "vscode": "^1.58.0"
