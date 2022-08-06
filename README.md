@@ -4,7 +4,7 @@ A beautifully muted dark theme with subtle vibrance based off [Electron Color Th
 
 ## Screenshots
 
-![Desktop screenshot](images/Desktop-screenshot.png)
-![CSS syntax highlight](images/CSS.png)
-![Component syntax highlight](images/component.png)
-![JavaScript syntax highlight](images/useStateExample.png)
+![Desktop screenshot](https://github.com/yusoofsh/moonic/raw/HEAD/images/Desktop-screenshot.png)
+![CSS syntax highlight](https://github.com/yusoofsh/moonic/raw/HEAD/images/CSS.png)
+![Component syntax highlight](https://github.com/yusoofsh/moonic/raw/HEAD/images/component.png)
+![JavaScript syntax highlight](https://github.com/yusoofsh/moonic/raw/HEAD/images/useStateExample.png)

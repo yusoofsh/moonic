@@ -1,42 +1,49 @@
 {
-    "name": "moonic",
-    "displayName": "Moonic",
-    "description": "A beautifully muted dark theme with subtle vibrance based off Electron and Moonlight II Italic",
-    "author": {
-        "name": "Yusoof SH"
-    },
-    "publisher": "yusoofsh",
-    "version": "0.2.0",
-    "engines": {
-        "vscode": "^1.58.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/yusoofsh/moonic"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Moonic",
-                "uiTheme": "vs-dark",
-                "path": "./themes/moonic-color-theme.json"
-            }
-        ]
-    },
-    "galleryBanner": {
-        "color": "#1d1f31",
-        "theme": "dark"
-    },
-    "icon": "images/icon.png",
-    "keywords": [
-        "Moonic",
-        "Electron",
-        "Moonlight theme",
-        "Dark theme",
-        "purple",
-        "blue"
-    ]
+	"name": "moonic",
+	"displayName": "Moonic",
+	"description": "A beautifully muted dark theme with subtle vibrance based off Electron and Moonlight II Italic",
+	"author": {
+		"name": "Yusoof SH"
+	},
+	"publisher": "yusoofsh",
+	"version": "0.2.0",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yusoofsh/moonic"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Moonic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/moonic-color-theme.json"
+			}
+		]
+	},
+	"galleryBanner": {
+		"color": "#1d1f31",
+		"theme": "dark"
+	},
+	"icon": "images/icon.png",
+	"keywords": [
+		"Moonic",
+		"Electron",
+		"Moonlight theme",
+		"Dark theme",
+		"purple",
+		"blue"
+	],
+	"__metadata": {
+		"installedTimestamp": 1643937255289
+	},
+	"devDependencies": {
+		"esbuild": "^0.14.21",
+		"vsce": "^2.6.7"
+	}
 }
