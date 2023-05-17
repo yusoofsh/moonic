@@ -43,7 +43,6 @@
 		"installedTimestamp": 1643937255289
 	},
 	"devDependencies": {
-		"esbuild": "^0.14.21",
-		"vsce": "^2.6.7"
+		"@vscode/vsce": "^2.19.0"
 	}
 }
