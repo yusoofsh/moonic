@@ -1,10 +1,7 @@
 # Moonic
 
-A beautifully muted dark theme with subtle vibrance based off [Electron Color Theme](https://marketplace.visualstudio.com/items?itemName=kuscamara.electron) and [Moonlight II Italics](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight).
-
-## Screenshots
-
-![Desktop screenshot](https://github.com/yusoofsh/moonic/raw/HEAD/images/Desktop-screenshot.png)
-![CSS syntax highlight](https://github.com/yusoofsh/moonic/raw/HEAD/images/CSS.png)
-![Component syntax highlight](https://github.com/yusoofsh/moonic/raw/HEAD/images/component.png)
-![JavaScript syntax highlight](https://github.com/yusoofsh/moonic/raw/HEAD/images/useStateExample.png)
+A slight alteration of the beautiful [Electronic Dawn](https://marketplace.visualstudio.com/items?itemName=NoahRaskin.electronic-dawn-theme)
+theme which is based off of [Electronic Moonlight](https://marketplace.visualstudio.com/items?itemName=isaaccodes.electronic-moonlight-theme)
+and [Electron Color Theme](https://marketplace.visualstudio.com/items?itemName=kuscamara.electron)
+and [Moonlight II Italics](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight).
+Features a subtly brighter editor background and a few other minor changes.
