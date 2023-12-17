@@ -1,15 +1,15 @@
 {
 	"name": "moonic",
 	"displayName": "Moonic",
-	"description": "A beautifully muted dark theme with subtle vibrance based off Electron and Moonlight II Italic",
+	"description": "Yusoof's opinionated theme",
 	"author": {
-		"name": "Yusoof SH"
+		"name": "Yusoof Moh"
 	},
 	"scripts": {
 		"package": "vsce package"
 	},
 	"publisher": "yusoofsh",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"engines": {
 		"vscode": "^1.58.0"
 	},
@@ -23,14 +23,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Moonic Classic",
+				"label": "Moonic II",
 				"uiTheme": "vs-dark",
-				"path": "./themes/moonic-classic.json"
+				"path": "./themes/moonic-ii.json"
 			},
 			{
-				"label": "Moonic Heavy",
+				"label": "Moonic I",
 				"uiTheme": "vs-dark",
-				"path": "./themes/moonic-heavy.json"
+				"path": "./themes/moonic-i.json"
 			}
 		]
 	},
@@ -41,16 +41,17 @@
 	"icon": "images/icon.png",
 	"keywords": [
 		"Moonic",
-		"Electron",
-		"Moonlight theme",
-		"Dark theme",
-		"purple",
-		"blue"
+		"Noctis",
+		"Moonlight",
+		"Electronic",
+		"Catppuccin",
+		"Maron",
+		"Dark"
 	],
 	"__metadata": {
 		"installedTimestamp": 1643937255289
 	},
 	"devDependencies": {
-		"@vscode/vsce": "^2.19.0"
+		"@vscode/vsce": "^2.22.0"
 	}
 }
