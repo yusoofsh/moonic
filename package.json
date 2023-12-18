@@ -9,7 +9,7 @@
 		"package": "vsce package"
 	},
 	"publisher": "yusoofsh",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"engines": {
 		"vscode": "^1.58.0"
 	},

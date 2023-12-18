@@ -6,4 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.5.1] - 2023-12-18
+
+### Fixed
+
+- Brighter terminal foreground color
+
+## [0.5.0] - 2023-12-17
+
+### Added
+
 - Initial release
