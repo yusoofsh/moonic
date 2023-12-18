@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.5.3] - 2023-12-18
+
+### Fixed
+
+- Fix wrong reference on release-please-action
+
 ## [0.5.2] - 2023-12-18
 
 ### Added
