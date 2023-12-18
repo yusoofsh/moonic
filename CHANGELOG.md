@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.5.2] - 2023-12-18
+
+### Added
+
+- GitHub Actions workflows for release
+
 ## [0.5.1] - 2023-12-18
 
 ### Fixed
