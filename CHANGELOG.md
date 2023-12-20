@@ -4,7 +4,12 @@ All notable changes to the "Moonic" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.5.4] - 2023-12-20
+
+### Fixed
+
+- Vibrant object key color
+- Use circle icon
 
 ## [0.5.3] - 2023-12-18
 
