@@ -1,57 +1,58 @@
 {
-	"name": "moonic",
-	"displayName": "Moonic",
-	"description": "Yusoof's opinionated theme",
-	"author": {
-		"name": "Yusoof Moh"
-	},
-	"scripts": {
-		"package": "vsce package"
-	},
-	"publisher": "yusoofsh",
-	"version": "0.5.4",
-	"engines": {
-		"vscode": "^1.58.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/yusoofsh/moonic"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Moonic II",
-				"uiTheme": "vs-dark",
-				"path": "./themes/moonic-ii.json"
-			},
-			{
-				"label": "Moonic I",
-				"uiTheme": "vs-dark",
-				"path": "./themes/moonic-i.json"
-			}
-		]
-	},
-	"galleryBanner": {
-		"color": "#1d1f31",
-		"theme": "dark"
-	},
-	"icon": "images/icon.png",
-	"keywords": [
-		"Moonic",
-		"Noctis",
-		"Moonlight",
-		"Electronic",
-		"Catppuccin",
-		"Maron",
-		"Dark"
-	],
-	"__metadata": {
-		"installedTimestamp": 1643937255289
-	},
-	"devDependencies": {
-		"@vscode/vsce": "^2.22.0"
-	}
+  "name": "moonic",
+  "displayName": "Moonic",
+  "description": "Yusoof's opinionated theme",
+  "author": {
+    "name": "Yusoof Moh"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "publisher": "yusoofsh",
+  "version": "0.5.5",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yusoofsh/moonic"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Moonic II",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonic-ii.json"
+      },
+      {
+        "label": "Moonic I",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonic-i.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#1d1f31",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png",
+  "keywords": [
+    "Moonic",
+    "Noctis",
+    "Moonlight",
+    "Electronic",
+    "Catppuccin",
+    "Maron",
+    "Dark"
+  ],
+  "__metadata": {
+    "installedTimestamp": 1643937255289
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  }
 }

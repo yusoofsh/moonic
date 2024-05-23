@@ -4,6 +4,12 @@ All notable changes to the "Moonic" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.5.5] - 2024-05-24
+
+### Fixed
+
+- Hover color adjustment
+
 ## [0.5.4] - 2023-12-20
 
 ### Fixed
