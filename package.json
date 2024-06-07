@@ -1,7 +1,7 @@
 {
   "name": "moonic",
   "displayName": "Moonic",
-  "description": "Yusoof's opinionated theme",
+  "description": "My custom theme (very opinionated)",
   "author": {
     "name": "Yusoof Moh"
   },
@@ -10,7 +10,7 @@
     "publish": "vsce publish"
   },
   "publisher": "yusoofsh",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "engines": {
     "vscode": "^1.58.0"
   },
