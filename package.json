@@ -10,7 +10,7 @@
     "publish": "vsce publish"
   },
   "publisher": "yusoofsh",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "engines": {
     "vscode": "^1.58.0"
   },
@@ -24,14 +24,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Moonic II",
+        "label": "Moonic Primary",
         "uiTheme": "vs-dark",
-        "path": "./themes/moonic-ii.json"
+        "path": "./themes/moonic-primary.json"
       },
       {
-        "label": "Moonic I",
+        "label": "Moonic Secondary",
         "uiTheme": "vs-dark",
-        "path": "./themes/moonic-i.json"
+        "path": "./themes/moonic-secondary.json"
       }
     ]
   },

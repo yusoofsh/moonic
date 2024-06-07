@@ -4,7 +4,13 @@ All notable changes to the "Moonic" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.5.6] - 2024-05-24
+## [0.5.7] - 2024-06-07
+
+### Fixed
+
+- Renamed I and II to Primary and Secondary
+
+## [0.5.6] - 2024-06-07
 
 ### Fixed
 

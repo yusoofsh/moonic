@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Moonic II",
+  "name": "Moonic Primary",
   "type": "dark",
   "colors": {
     "activityBar.activeBackground": "#0E131B",
