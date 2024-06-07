@@ -554,14 +554,14 @@
       "name": "Tag",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#7dcfff"
+        "foreground": "#e0af68"
       }
     },
     {
       "name": "Tag Component",
       "scope": ["entity.name.tag support.class.component", "meta.tag"],
       "settings": {
-        "foreground": "#7dcfff"
+        "foreground": "#e0af68"
       }
     },
     {
@@ -594,7 +594,7 @@
         "variable.parameter.handlebars"
       ],
       "settings": {
-        "foreground": "#c0caf5"
+        "foreground": "#e0687a"
       }
     },
     {
@@ -622,7 +622,7 @@
         "meta.field.declaration.ts variable.object.property"
       ],
       "settings": {
-        "foreground": "#e0af68"
+        "foreground": "#f7768e"
       }
     },
     {
