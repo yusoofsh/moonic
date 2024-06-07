@@ -2,17 +2,6 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Moonic II",
   "type": "dark",
-  "semanticTokenColors": {
-    "parameter.declaration": { "foreground": "#e0af68" },
-    "parameter": { "foreground": "#d9d4cd" },
-    "property.declaration": { "foreground": "#73daca" },
-    "property.defaultLibrary": { "foreground": "#2ac3de" },
-    "*.defaultLibrary": { "foreground": "#2ac3de" },
-    "variable.defaultLibrary": { "foreground": "#2ac3de" },
-    "variable.declaration": { "foreground": "#bb9af7" },
-    "variable": { "foreground": "#c0caf5" }
-  },
-  "semanticClass": "tokyo-night",
   "colors": {
     "activityBar.activeBackground": "#0E131B",
     "activityBar.activeBorder": "#3d59a1",
@@ -642,17 +631,11 @@
         "variable.other.property",
         "support.variable.property",
         "support.variable.property.dom",
+        "variable.other.object.property",
         "meta.function-call variable.other.object.property"
       ],
       "settings": {
         "foreground": "#7dcfff"
-      }
-    },
-    {
-      "name": "Object Property",
-      "scope": "variable.other.object.property",
-      "settings": {
-        "foreground": "#c0caf5"
       }
     },
     {
@@ -772,7 +755,7 @@
       "name": "Class Name",
       "scope": "entity.name",
       "settings": {
-        "foreground": "#c0caf5"
+        "foreground": "#e0af68"
       }
     },
     {
@@ -813,7 +796,7 @@
         "meta.at-rule.mixin.scss entity.name.function.scss"
       ],
       "settings": {
-        "foreground": "#c0caf5"
+        "foreground": "#e0af68"
       }
     },
     {
@@ -927,7 +910,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#c0caf5"
+        "foreground": "#e0af68"
       }
     },
     {

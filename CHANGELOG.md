@@ -4,6 +4,13 @@ All notable changes to the "Moonic" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.5.6] - 2024-05-24
+
+### Fixed
+
+- Class color adjustment
+- Removed semantic highlighting
+
 ## [0.5.5] - 2024-05-24
 
 ### Fixed
