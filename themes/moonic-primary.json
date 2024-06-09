@@ -559,7 +559,7 @@
     },
     {
       "name": "Tag Component",
-      "scope": ["entity.name.tag support.class.component", "meta.tag"],
+      "scope": ["entity.name.tag", "support.class.component", "meta.tag"],
       "settings": {
         "foreground": "#e0af68"
       }
@@ -608,7 +608,7 @@
       "name": "Variable Array Key",
       "scope": "meta.array.literal variable",
       "settings": {
-        "foreground": "#7dcfff"
+        "foreground": "#e0687a"
       }
     },
     {
@@ -716,10 +716,12 @@
       "scope": [
         "meta.definition.variable variable.other.constant",
         "meta.definition.variable variable.other.readwrite",
-        "variable.other.declaration"
+        "variable.other.declaration",
+        "entity.name.type.alias",
+        "entity.name.function"
       ],
       "settings": {
-        "foreground": "#bb9af7"
+        "foreground": "#e0687a"
       }
     },
     {
