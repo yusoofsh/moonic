@@ -369,7 +369,6 @@
       ],
       "settings": {
         "foreground": "#646e9c"
-        //"fontStyle": "bold"
       }
     },
     {
@@ -379,14 +378,14 @@
         "punctuation.definition.constant",
         "constant.language",
         "constant.numeric",
-        "support.constant"
-        // "constant.language.null",
-        // "constant.language.undefined",
-        // "constant.language.go",
-        // "constant.language.boolean",
-        // "constant.language.json",
-        // "constant.language.infinity",
-        // "constant.language.nan"
+        "support.constant",
+        "constant.language.null",
+        "constant.language.undefined",
+        "constant.language.go",
+        "constant.language.boolean",
+        "constant.language.json",
+        "constant.language.infinity",
+        "constant.language.nan"
       ],
       "settings": {
         "foreground": "#c0768e"
@@ -401,7 +400,6 @@
         "meta.attribute-selector"
       ],
       "settings": {
-        "fontStyle": "",
         "foreground": "#85d0b7"
       }
     },
@@ -440,7 +438,7 @@
       "name": "Storage - modifier, var, const, let",
       "scope": ["meta.var.expr storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#9d7cd8"
+        "foreground": "#bb9af7"
       }
     },
     {
@@ -474,7 +472,7 @@
       "name": "Spread",
       "scope": ["keyword.operator.spread", "keyword.operator.rest"],
       "settings": {
-        "foreground": "#e0687a",
+        "foreground": "#C0CAF5",
         "fontStyle": "bold"
       }
     },
@@ -515,6 +513,7 @@
         "keyword.control.export",
         "keyword.control.from",
         "keyword.control.default",
+        "keyword.control.flow",
         "meta.import keyword.other"
       ],
       "settings": {
@@ -601,7 +600,7 @@
       "name": "Object Variable",
       "scope": "variable.other.object",
       "settings": {
-        "foreground": "#c0caf5"
+        "foreground": "#e0687a"
       }
     },
     {
@@ -622,7 +621,7 @@
         "meta.field.declaration.ts variable.object.property"
       ],
       "settings": {
-        "foreground": "#f7768e"
+        "foreground": "#e0af68"
       }
     },
     {
@@ -635,14 +634,7 @@
         "meta.function-call variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#7dcfff"
-      }
-    },
-    {
-      "name": "Object Literal Member lvl 3 (Vue Prop Validation)",
-      "scope": "meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key",
-      "settings": {
-        "foreground": "#41a6b5"
+        "foreground": "#7aa2f7"
       }
     },
     {
@@ -716,9 +708,7 @@
       "scope": [
         "meta.definition.variable variable.other.constant",
         "meta.definition.variable variable.other.readwrite",
-        "variable.other.declaration",
-        "entity.name.type.alias",
-        "entity.name.function"
+        "variable.other.declaration"
       ],
       "settings": {
         "foreground": "#e0687a"
@@ -754,8 +744,8 @@
       }
     },
     {
-      "name": "Class Name",
-      "scope": "entity.name",
+      "name": "Class Name, Type Alias",
+      "scope": ["entity.name", "entity.name.type.alias"],
       "settings": {
         "foreground": "#0db9d7"
       }
@@ -1083,7 +1073,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#7aa2f7"
+        "foreground": "#e0af68"
       }
     },
     {
@@ -1092,7 +1082,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f7768e"
+        "foreground": "#7aa2f7"
       }
     },
     {
@@ -1101,7 +1091,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#7dcfff"
+        "foreground": "#e0af68"
       }
     },
     {
@@ -1110,7 +1100,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#bb9af7"
+        "foreground": "#7aa2f7"
       }
     },
     {
@@ -1119,7 +1109,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f7768e"
+        "foreground": "#e0af68"
       }
     },
     {
@@ -1128,16 +1118,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#7dcfff"
-      }
-    },
-    {
-      "name": "JSON Key - Level 6",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#bb9af7"
+        "foreground": "#7aa2f7"
       }
     },
     {
