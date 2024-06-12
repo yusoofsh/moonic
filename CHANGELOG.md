@@ -4,6 +4,12 @@ All notable changes to the "Moonic" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.5.13] - 2024-06-13
+
+### Fixed
+
+- Revert to whitish variable color
+
 ## [0.5.12] - 2024-06-10
 
 ### Fixed

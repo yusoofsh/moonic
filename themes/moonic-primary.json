@@ -472,8 +472,7 @@
       "name": "Spread",
       "scope": ["keyword.operator.spread", "keyword.operator.rest"],
       "settings": {
-        "foreground": "#C0CAF5",
-        "fontStyle": "bold"
+        "foreground": "#C0CAF5"
       }
     },
     {
@@ -581,7 +580,7 @@
         "constant.other"
       ],
       "settings": {
-        "foreground": "#e0687a"
+        "foreground": "#C0CAF5"
       }
     },
     {
@@ -593,21 +592,21 @@
         "variable.parameter.handlebars"
       ],
       "settings": {
-        "foreground": "#e0687a"
+        "foreground": "#C0CAF5"
       }
     },
     {
       "name": "Object Variable",
       "scope": "variable.other.object",
       "settings": {
-        "foreground": "#e0687a"
+        "foreground": "#C0CAF5"
       }
     },
     {
       "name": "Variable Array Key",
       "scope": "meta.array.literal variable",
       "settings": {
-        "foreground": "#e0687a"
+        "foreground": "#C0CAF5"
       }
     },
     {
@@ -648,7 +647,7 @@
       "name": "Other Variable",
       "scope": "support.other.variable",
       "settings": {
-        "foreground": "#f7768e"
+        "foreground": "#C0CAF5"
       }
     },
     {
@@ -711,7 +710,7 @@
         "variable.other.declaration"
       ],
       "settings": {
-        "foreground": "#e0687a"
+        "foreground": "#C0CAF5"
       }
     },
     {
