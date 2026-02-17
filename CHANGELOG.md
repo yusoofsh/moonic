@@ -1,8 +1,6 @@
-# Change Log
+# Changelog
 
-All notable changes to the "Moonic" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable updates, improvements, and fixes to Moonic.
 
 ## [0.6.0] - 2026-02-17
 

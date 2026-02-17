@@ -1,7 +1,7 @@
 {
   "name": "moonic",
   "displayName": "Moonic",
-  "description": "My custom theme (very opinionated)",
+  "description": "Opinionated VSCode theme blending the best of Electronic Dawn, Catppuccin, and Maron. Carefully curated colors for maximum readability and eye comfort.",
   "author": {
     "name": "Yusoof Moh"
   },
@@ -46,13 +46,21 @@
   },
   "icon": "images/icon.png",
   "keywords": [
-    "Moonic",
-    "Noctis",
-    "Moonlight",
-    "Electronic",
-    "Catppuccin",
-    "Maron",
-    "Dark"
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "light-theme",
+    "moonic",
+    "opinionated",
+    "catppuccin",
+    "electronic-dawn",
+    "noctis",
+    "maron",
+    "curated",
+    "comfortable",
+    "readable",
+    "eye-comfort",
+    "moonlight"
   ],
   "__metadata": {
     "installedTimestamp": 1643937255289
