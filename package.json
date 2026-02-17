@@ -53,6 +53,6 @@
     "installedTimestamp": 1643937255289
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.27.0"
+    "@vscode/vsce": "^3.7.1"
   }
 }
