@@ -4,6 +4,23 @@ All notable changes to the "Moonic" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.6.0] - 2026-02-17
+
+### Added
+
+- Chat and testing theme colors to Primary, Secondary, and Light themes
+
+### Fixed
+
+- Comment block documentation foreground color
+- Function red color
+- Variable color adjustments
+- VSCode engine compatibility updated to ^1.109.0
+
+### Changed
+
+- Code cleanup and maintenance improvements
+
 ## [0.5.14] - 2026-02-17
 
 ### Fixed
