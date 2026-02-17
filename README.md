@@ -5,4 +5,4 @@ My custom theme (very opinionated). Is a slight alteration of the beautiful:
 - [Catppuccin Noctis](https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis)
 - [Maron Themes](https://marketplace.visualstudio.com/items?itemName=KainNhantumbo.maron-themes)
 
-![Preview](/images/preview.png)
+![Preview](/images/preview.jpeg)
