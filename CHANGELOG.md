@@ -2,6 +2,17 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.6.2] - 2026-02-17
+
+### Changed
+
+- Normalize `Moonic Primary` colors so UI accents are derived from the theme's primary/main palette (harmonized charts, editor highlights, terminal ANSI, debug tokens, and testing icons)
+- Set `scmGraph.historyItemRefColor` to the theme error red (`#db4b4b`) for improved visibility and semantic consistency
+
+### Fixed
+
+- Replace legacy accent values in `moonic-primary.json` with primary-derived equivalents for consistent contrast and accessibility
+
 ## [0.6.1] - 2026-02-17
 
 ### Fixed
