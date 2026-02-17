@@ -2,6 +2,14 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.6.1] - 2026-02-17
+
+### Fixed
+
+- Refine SCM graph colors for improved visibility and consistency
+- Adjust color values in Primary and Light themes for improved clarity and accessibility
+- Minor theme consistency and visual tweaks
+
 ## [0.6.0] - 2026-02-17
 
 ### Added
