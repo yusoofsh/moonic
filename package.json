@@ -24,6 +24,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Moonic Light",
+        "uiTheme": "vs",
+        "path": "./themes/moonic-light.json"
+      },
+      {
         "label": "Moonic Primary",
         "uiTheme": "vs-dark",
         "path": "./themes/moonic-primary.json"
