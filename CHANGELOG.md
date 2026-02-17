@@ -4,6 +4,12 @@ All notable changes to the "Moonic" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.5.14] - 2026-02-17
+
+### Fixed
+
+- Improved contrast for documentation comment punctuation (accessibility enhancement)
+
 ## [0.5.13] - 2024-06-13
 
 ### Fixed
