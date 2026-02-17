@@ -10,9 +10,9 @@
     "publish": "vsce publish"
   },
   "publisher": "yusoofsh",
-  "version": "0.5.14",
+  "version": "0.6.0",
   "engines": {
-    "vscode": "^1.58.0"
+    "vscode": "^1.109.0"
   },
   "repository": {
     "type": "git",
