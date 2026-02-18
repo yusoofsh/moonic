@@ -6,14 +6,21 @@ All notable updates, improvements, and fixes to Moonic.
 
 ### Fixed
 - Improved contrast for line numbers, whitespace characters, and CodeLens to meet WCAG AA standards
+- Warning color contrast improved to meet WCAG AA (3.8:1 → 4.6:1)
+- const/readonly variables no longer appear red (error-like)
+- Types now use consistent blue-cyan from existing palette instead of clashing purple
 
 ### Added
 - Support for modern VS Code features: inline suggestions, inline edits, Copilot chat agents, multiDiffEditor
-- Semantic highlighting for defaultLibrary, readonly variables, type parameters, and self/this keywords
+- Semantic highlighting with tokens mapped to existing palette (class, interface, function, variable, etc.)
 - Additional scmGraph colors for better source control visualization
+- Semantic token colors for defaultLibrary, readonly variables, type parameters, and self/this keywords
 
 ### Changed
 - Normalized all color values to lowercase for consistency
+- Consolidated palette: merged 5 pairs of near-duplicate colors (#7dcfff→#89ddff, #0da0ba→#0db9d7, #25aac2→#41a6b5, #cc7580→#c0768e, #697090→#7a80a0)
+- Reduced unique color count by ~10% through consolidation
+- Improved overall color harmony by eliminating subtle variations
 
 ## [0.6.2] - 2026-02-17
 
