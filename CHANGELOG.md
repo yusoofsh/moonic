@@ -2,6 +2,19 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [Unreleased]
+
+### Fixed
+- Improved contrast for line numbers, whitespace characters, and CodeLens to meet WCAG AA standards
+
+### Added
+- Support for modern VS Code features: inline suggestions, inline edits, Copilot chat agents, multiDiffEditor
+- Semantic highlighting for defaultLibrary, readonly variables, type parameters, and self/this keywords
+- Additional scmGraph colors for better source control visualization
+
+### Changed
+- Normalized all color values to lowercase for consistency
+
 ## [0.6.2] - 2026-02-17
 
 ### Changed
