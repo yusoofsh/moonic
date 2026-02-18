@@ -2,7 +2,7 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
-## [Unreleased]
+## [0.6.3] - 2026-02-18
 
 ### Fixed
 - Improved contrast for line numbers, whitespace characters, and CodeLens to meet WCAG AA standards

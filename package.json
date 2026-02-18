@@ -6,11 +6,11 @@
     "name": "Yusoof Moh"
   },
   "scripts": {
-    "package": "vsce package",
-    "publish": "vsce publish"
+    "pack": "vsce package",
+    "pub": "vsce publish"
   },
   "publisher": "yusoofsh",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "engines": {
     "vscode": "^1.109.0"
   },
