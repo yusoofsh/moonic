@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Moonic Primary",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.activeBackground": "#0e131b",
     "activityBar.activeBorder": "#3d59a1",
@@ -1569,5 +1570,35 @@
         "fontStyle": "italic"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "class": "#0db9d7",
+    "interface": "#0db9d7",
+    "enum": "#9a7ecc",
+    "enumMember": "#d4aa6a",
+    "struct": "#0db9d7",
+    "type": "#0db9d7",
+    "typeParameter": "#9a7ecc",
+    "function": "#7aa2f7",
+    "method": "#7aa2f7",
+    "variable": "#c0caf5",
+    "variable.readonly": "#a9b1d6",
+    "variable.defaultLibrary": "#0db9d7",
+    "parameter": "#f7768e",
+    "property": "#7aa2f7",
+    "property.readonly": "#a9b1d6",
+    "namespace": "#0db9d7",
+    "label": "#c0caf5",
+    "event": "#e0af68",
+    "macro": "#bb9af7",
+    "decorator": "#bb9af7",
+    "modifier": "#bb9af7",
+    "operator": "#89ddff",
+    "comment": "#7a85a8",
+    "string": "#85d0b7",
+    "number": "#c0768e",
+    "regexp": "#b4f9f8",
+    "keyword": "#bb9af7",
+    "selfKeyword": "#f7768e"
+  }
 }
