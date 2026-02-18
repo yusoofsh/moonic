@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Moonic Primary",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.activeBackground": "#0e131b",
     "activityBar.activeBorder": "#3d59a1",
