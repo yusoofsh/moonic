@@ -1456,6 +1456,35 @@
       "settings": {
         "foreground": "#7aa2f7"
       }
+    },
+    {
+      "name": "Default Library",
+      "scope": ["support.variable.defaultLibrary", "support.function.defaultLibrary", "support.class.defaultLibrary"],
+      "settings": {
+        "foreground": "#0db9d7"
+      }
+    },
+    {
+      "name": "Readonly Variables",
+      "scope": ["variable.other.constant", "variable.other.readonly"],
+      "settings": {
+        "foreground": "#c0768e"
+      }
+    },
+    {
+      "name": "Type Parameters",
+      "scope": ["entity.name.type.parameter", "meta.type.parameters entity.name.type"],
+      "settings": {
+        "foreground": "#9a7ecc"
+      }
+    },
+    {
+      "name": "Self/This Keyword",
+      "scope": ["variable.language.this", "variable.language.self", "variable.language.special"],
+      "settings": {
+        "foreground": "#f7768e",
+        "fontStyle": "italic"
+      }
     }
   ]
 }
