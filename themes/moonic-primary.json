@@ -2,14 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Moonic Primary",
   "type": "dark",
-  "semanticHighlighting": true,
-  "semanticTokenColors": {
-    "class": "#7aa2f7",
-    "interface": "#7aa2f7",
-    "enum": "#9a7ecc",
-    "type": "#7aa2f7",
-    "variable.readonly": "#a9b1d6"
-  },
+  "semanticHighlighting": false,
   "colors": {
     "activityBar.activeBackground": "#0e131b",
     "activityBar.activeBorder": "#3d59a1",
