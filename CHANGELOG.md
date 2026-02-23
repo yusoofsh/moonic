@@ -2,6 +2,11 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.6.4] - 2026-02-23
+
+### Changed
+- Updated scmGraph colors for improved visibility
+
 ## [0.6.3] - 2026-02-18
 
 ### Fixed
