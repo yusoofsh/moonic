@@ -403,11 +403,11 @@
     "profileBadge.foreground": "#ffffff",
     "profiles.sashBorder": "#3d59a140",
     "scmGraph.historyItemHoverLabelForeground": "#ffffff",
-    "scmGraph.foreground1": "#1f3270",
-    "scmGraph.foreground2": "#143f53",
-    "scmGraph.foreground3": "#4d3673",
-    "scmGraph.foreground4": "#135044",
-    "scmGraph.foreground5": "#35601a",
+    "scmGraph.foreground1": "#2d4a9a",
+    "scmGraph.foreground2": "#1a5f78",
+    "scmGraph.foreground3": "#6b4a9f",
+    "scmGraph.foreground4": "#1a6b5e",
+    "scmGraph.foreground5": "#4a7a20",
     "scmGraph.historyItemRefColor": "#db4b4b",
     "notebook.cellBorderColor": "#3d59a140",
     "notebook.cellEditorBackground": "#0e131b",
@@ -1500,7 +1500,7 @@
       "name": "Readonly Variables",
       "scope": ["variable.other.constant", "variable.other.readonly"],
       "settings": {
-        "foreground": "#c0768e"
+        "foreground": "#a9b1d6"
       }
     },
     {
