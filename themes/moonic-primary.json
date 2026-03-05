@@ -409,6 +409,7 @@
     "scmGraph.foreground4": "#1a6b5e",
     "scmGraph.foreground5": "#4a7a20",
     "scmGraph.historyItemRefColor": "#db4b4b",
+    "scmGraph.historyItemRemoteRefColor": "#4b4bdb",
     "notebook.cellBorderColor": "#3d59a140",
     "notebook.cellEditorBackground": "#0e131b",
     "notebook.cellHoverBackground": "#1c1d2920",
@@ -1500,7 +1501,7 @@
       "name": "Readonly Variables",
       "scope": ["variable.other.constant", "variable.other.readonly"],
       "settings": {
-        "foreground": "#a9b1d6"
+        "foreground": "#c0768e"
       }
     },
     {
