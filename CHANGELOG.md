@@ -2,6 +2,13 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.6.5] - 2026-03-05
+
+### Changed
+- Added scmGraph history item remote ref color
+- Updated readonly variable color
+- Reverted scmGraph color changes from 0.6.4
+
 ## [0.6.4] - 2026-02-23
 
 ### Changed
