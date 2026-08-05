@@ -2,6 +2,24 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.7.0] - 2026-08-05
+
+### Added
+- Restored semantic highlighting (`semanticHighlighting: true`) with 26 token mappings aligned to the theme palette
+- Restored ~109 modern VS Code workbench color keys accidentally dropped in the 0.6.3 release (checkbox/radio, button secondary, multi-cursor, problems/symbol icons, sticky scroll, toolbar, and more)
+
+### Fixed
+- Semantic token colors now match the tuned TextMate palette (removed clashing purple types/enums, washed-out readonly constants, purple decorators/macros)
+- Active tab now has a clear background indicator and visible top border; inactive tabs are dimmed for contrast
+- Activity bar active state is now clearly visible (distinct background, brighter icon and border)
+- Activity bar icons, inactive panel title, and error badge contrast improved toward WCAG AA
+- Made chart grid lines and editor column ruler visible (were identical to background)
+- Fixed typo in PHP namespace TextMate scope (`support.orther.namespace.use.php`)
+- Normalized redundant alpha values for a more consistent translucency hierarchy
+
+### Changed
+- Focus outlines and widget/toolbar/tab-hover borders removed for a cleaner, outline-free look (selection still shown via background)
+
 ## [0.6.5] - 2026-03-05
 
 ### Changed
