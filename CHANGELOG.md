@@ -2,6 +2,12 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.7.1] - 2026-08-05
+
+### Changed
+- Removed active tab borders entirely; active state is now indicated by background fill only
+- Made find match highlight foreground translucent
+
 ## [0.7.0] - 2026-08-05
 
 ### Added
