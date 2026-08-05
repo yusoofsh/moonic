@@ -26,7 +26,7 @@
     "disabledForeground": "#7a80a0",
     "editor.compositionBorder": "#3d59a1",
     "editor.findMatchForeground": "#a9b1d6",
-    "editor.findMatchHighlightForeground": "#a9b1d6",
+    "editor.findMatchHighlightForeground": "#a9b1d680",
     "editor.foldPlaceholderForeground": "#8b90ab",
     "editor.hoverHighlightBackground": "#3d59a120",
     "editor.inactiveLineHighlightBackground": "#00000044",
