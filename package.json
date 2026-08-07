@@ -66,6 +66,20 @@
     "installedTimestamp": 1643937255289
   },
   "devDependencies": {
+    "@secretlint/secretlint-formatter-sarif": "^10.2.2",
+    "@secretlint/secretlint-rule-no-dotenv": "^10.2.2",
+    "@secretlint/secretlint-rule-preset-recommend": "^10.2.2",
     "@vscode/vsce": "^3.7.1"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "nub",
+      "version": "^0.7.0",
+      "onFail": "ignore"
+    }
+  },
+  "allowBuilds": {
+    "@vscode/vsce-sign": true,
+    "keytar": true
   }
 }
