@@ -26,7 +26,7 @@ jobs:
       OVSX_TOKEN: ${{ secrets.OVSX_TOKEN }}
       GH_TOKEN: ${{ github.token }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: oven-sh/setup-bun@v2
 
@@ -49,15 +49,15 @@ jobs:
 
       - name: Package
         if: steps.ver.outputs.skip != 'true'
-        run: bunx @vscode/vsce@3.6.0 package -o moonic-${{ steps.ver.outputs.version }}.vsix
+        run: bunx @vscode/vsce@4.1.1 package -o moonic-${{ steps.ver.outputs.version }}.vsix
 
       - name: Publish to VS Code Marketplace
         if: steps.ver.outputs.skip != 'true'
-        run: bunx @vscode/vsce@3.6.0 publish --packagePath moonic-${{ steps.ver.outputs.version }}.vsix
+        run: bunx @vscode/vsce@4.1.1 publish --packagePath moonic-${{ steps.ver.outputs.version }}.vsix
 
       - name: Publish to Open VSX
         if: steps.ver.outputs.skip != 'true' && env.OVSX_TOKEN != ''
-        run: bunx ovsx@0.10.5 publish moonic-${{ steps.ver.outputs.version }}.vsix -p "$OVSX_TOKEN"
+        run: bunx ovsx@1.4.0 publish moonic-${{ steps.ver.outputs.version }}.vsix -p "$OVSX_TOKEN"
 
       - name: Tag and create GitHub release
         if: steps.ver.outputs.skip != 'true'
