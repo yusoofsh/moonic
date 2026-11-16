@@ -184,12 +184,12 @@
     "editorActionList.focusBackground": "#f0f3fa",
     "editorActionList.focusForeground": "#2d3f6f",
     "editorActionList.foreground": "#2d3f6f",
-    "editorBracketHighlight.foreground1": "#6e5818",
-    "editorBracketHighlight.foreground2": "#3a6522",
-    "editorBracketHighlight.foreground3": "#135868",
-    "editorBracketHighlight.foreground4": "#553088",
-    "editorBracketHighlight.foreground5": "#135868",
-    "editorBracketHighlight.foreground6": "#254888",
+    "editorBracketHighlight.foreground1": "#2454b8",
+    "editorBracketHighlight.foreground2": "#7a3fc4",
+    "editorBracketHighlight.foreground3": "#0a7285",
+    "editorBracketHighlight.foreground4": "#b35900",
+    "editorBracketHighlight.foreground5": "#1d7a52",
+    "editorBracketHighlight.foreground6": "#c42b4a",
     "editorBracketHighlight.unexpectedBracket.foreground": "#a52828",
     "editorBracketMatch.background": "#ffffff",
     "editorBracketMatch.border": "#55607f",
@@ -963,11 +963,28 @@
         "keyword.control.export",
         "keyword.control.from",
         "keyword.control.default",
-        "keyword.control.flow",
         "meta.import keyword.other"
       ],
       "settings": {
-        "foreground": "#0a7285"
+        "foreground": "#a63194"
+      }
+    },
+    {
+      "name": "Control Flow (await, return, break)",
+      "scope": [
+        "keyword.control.flow"
+      ],
+      "settings": {
+        "foreground": "#7a3fc4"
+      }
+    },
+    {
+      "name": "Imported Names",
+      "scope": [
+        "variable.other.readwrite.alias"
+      ],
+      "settings": {
+        "foreground": "#2d3f6f"
       }
     },
     {
