@@ -2,6 +2,27 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [Unreleased]
+
+### Changed
+- Moonic Light now mirrors Moonic Primary one-to-one: identical 755-key workbench color set in identical order, the same 112 TextMate rules (4 were missing) and the same 26 semantic token mappings, with each color chosen by role (surface, text, muted, accent, status) instead of copied hex
+- Light chrome (sidebar, activity bar, status bar, title bar, tabs, panel) is now flat on the editor surface like Primary; Primary gains the same accent hairline Light uses between regions
+- Keyboard focus is visible again in both themes (`focusBorder` and list focus outline use the accent); this reverses the outline-free choice from 0.7.0 for accessibility. Set `focusBorder` and `list.focusOutline` to transparent in `workbench.colorCustomizations` to restore the old look
+- Added ~220 color keys from the current VS Code theme-color reference (diff and merge editors, status bar item states, command center, settings editor, keybinding labels, sticky scroll, quick input, debug toolbar icons, markdown alerts, terminal find and cursor, chat, welcome page)
+- Fixed Primary `errorForeground` (was gray); normalized hex casing and 3-digit values in Light
+
+### Fixed
+- Light is easier to read: UI text, descriptions, line numbers, whitespace, punctuation and comments are darker (UI text 8:1, muted text 6:1 on white; syntax colors stay at 5.9:1 or higher)
+- Contrast raised toward WCAG AA in Primary: input, checkbox and dropdown borders (3:1), inactive panel title, comment docs, markdown separators and quotes, deleted-file decorations, SCM graph lines, git gutter bars, error badge text, command center labels
+- Popups (suggest list, widgets) keep a visible border in both themes; drag-and-drop backgrounds are translucent again; find-match text is readable on its highlight in both themes
+- Scrollbar slider hover and active states are now distinguishable
+- Fixed `support.orther.namespace.use.php` typo in Light
+
+### Notes
+- `semanticHighlighting` stays `false` in both themes (the 0.7.0 notes said otherwise). The semantic token map ships in both and applies when `editor.semanticHighlighting.enabled` is `true`
+- Moonic Secondary is unchanged and still lags behind the other two
+- `images/preview.jpeg` predates these changes
+
 ## [0.7.1] - 2026-08-05
 
 ### Changed
