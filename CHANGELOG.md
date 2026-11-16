@@ -2,6 +2,11 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.8.1] - 2026-11-16
+
+### Changed
+- Moonic Light syntax colors are brighter and more distinct. The 0.8.0 palette darkened every Primary hue to 7-10:1 contrast, which turned yellow into olive-brown and made keys, tags and numbers look muddy. Syntax colors now target 5-7:1 (all above 4.5:1 on white): amber tags and JSON keys, rose numbers, vivid blue properties and functions, violet keywords, teal types, green strings. Comments are lighter so they recede. Workbench colors are unchanged
+
 ## [0.8.0] - 2026-11-16
 
 ### Changed
