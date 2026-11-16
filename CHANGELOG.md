@@ -2,7 +2,7 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
-## [Unreleased]
+## [0.8.0] - 2026-11-16
 
 ### Changed
 - Moonic Light now mirrors Moonic Primary one-to-one: identical 755-key workbench color set in identical order, the same 112 TextMate rules (4 were missing) and the same 26 semantic token mappings, with each color chosen by role (surface, text, muted, accent, status) instead of copied hex
@@ -12,6 +12,7 @@ All notable updates, improvements, and fixes to Moonic.
 - Fixed Primary `errorForeground` (was gray); normalized hex casing and 3-digit values in Light
 
 ### Fixed
+- Light current-line highlight rendered as a heavy grey bar; it is now a soft tint
 - Light is easier to read: UI text, descriptions, line numbers, whitespace, punctuation and comments are darker (UI text 8:1, muted text 6:1 on white; syntax colors stay at 5.9:1 or higher)
 - Contrast raised toward WCAG AA in Primary: input, checkbox and dropdown borders (3:1), inactive panel title, comment docs, markdown separators and quotes, deleted-file decorations, SCM graph lines, git gutter bars, error badge text, command center labels
 - Popups (suggest list, widgets) keep a visible border in both themes; drag-and-drop backgrounds are translucent again; find-match text is readable on its highlight in both themes
@@ -19,9 +20,9 @@ All notable updates, improvements, and fixes to Moonic.
 - Fixed `support.orther.namespace.use.php` typo in Light
 
 ### Notes
+- Moonic Secondary now has the same 756 color keys as the others (plus its own extras), the 4 missing syntax rules, the semantic map and the same focus, border and contrast fixes as the others, using its own palette; its existing values are kept
 - `semanticHighlighting` stays `false` in both themes (the 0.7.0 notes said otherwise). The semantic token map ships in both and applies when `editor.semanticHighlighting.enabled` is `true`
-- Moonic Secondary is unchanged and still lags behind the other two
-- `images/preview.jpeg` predates these changes
+- `images/preview.jpeg` is regenerated from VS Code for the web, showing Light, Primary and Secondary
 
 ## [0.7.1] - 2026-08-05
 
