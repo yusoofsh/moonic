@@ -2,6 +2,12 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.8.2] - 2026-11-16
+
+### Changed
+- Moonic Light: imports and exports (`import`, `export`, `from`, `default`) are now magenta, control flow (`await`, `return`, `break`) is violet like other keywords, and imported names use the plain variable color. Previously these shared one teal with types, classes and support functions, so they were hard to tell apart
+- Moonic Light bracket pair colors follow the new syntax palette (blue, violet, teal, amber, green, red) instead of olive and dark green
+
 ## [0.8.1] - 2026-11-16
 
 ### Changed
