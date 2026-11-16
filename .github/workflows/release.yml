@@ -1,0 +1,67 @@
+name: Release
+
+# Publishes automatically when package.json carries a version that has no
+# git tag yet (bump the version and update CHANGELOG.md in the PR).
+# Required secret: VSCE_PAT (Marketplace "Manage" scope, publisher yusoofsh).
+# Optional secret: OVSX_TOKEN (also publishes to Open VSX).
+
+on:
+  push:
+    branches: [main]
+    paths: [package.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      OVSX_TOKEN: ${{ secrets.OVSX_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Check whether this version is already released
+        id: ver
+        run: |
+          version=$(bun -e 'console.log(JSON.parse(require("node:fs").readFileSync("package.json","utf8")).version)')
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          if git ls-remote --exit-code --tags origin "refs/tags/v$version" >/dev/null 2>&1; then
+            echo "v$version already tagged; nothing to release."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Require changelog entry and token
+        if: steps.ver.outputs.skip != 'true'
+        run: |
+          grep -q "^## \[${{ steps.ver.outputs.version }}\]" CHANGELOG.md \
+            || { echo "::error::CHANGELOG.md has no entry for ${{ steps.ver.outputs.version }}"; exit 1; }
+          [ -n "$VSCE_PAT" ] || { echo "::error::Repository secret VSCE_PAT is not set"; exit 1; }
+
+      - name: Package
+        if: steps.ver.outputs.skip != 'true'
+        run: bunx @vscode/vsce@3.6.0 package -o moonic-${{ steps.ver.outputs.version }}.vsix
+
+      - name: Publish to VS Code Marketplace
+        if: steps.ver.outputs.skip != 'true'
+        run: bunx @vscode/vsce@3.6.0 publish --packagePath moonic-${{ steps.ver.outputs.version }}.vsix
+
+      - name: Publish to Open VSX
+        if: steps.ver.outputs.skip != 'true' && env.OVSX_TOKEN != ''
+        run: bunx ovsx@0.10.5 publish moonic-${{ steps.ver.outputs.version }}.vsix -p "$OVSX_TOKEN"
+
+      - name: Tag and create GitHub release
+        if: steps.ver.outputs.skip != 'true'
+        run: |
+          v="${{ steps.ver.outputs.version }}"
+          awk -v v="$v" '$0 ~ "^## \\["v"\\]"{f=1;next} /^## \[/{f=0} f' CHANGELOG.md > notes.md
+          gh release create "v$v" "moonic-$v.vsix" --target "$GITHUB_SHA" --title "v$v" --notes-file notes.md

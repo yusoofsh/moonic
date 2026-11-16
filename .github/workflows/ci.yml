@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Validate theme JSON
+        run: |
+          bun -e '
+            import { readdirSync, readFileSync } from "node:fs";
+            const strip = (s) => s.replace(/^\s*\/\/.*$/gm, "").replace(/,(\s*[}\]])/g, "$1");
+            let bad = 0;
+            for (const f of readdirSync("themes")) {
+              try {
+                const t = JSON.parse(strip(readFileSync(`themes/${f}`, "utf8")));
+                console.log(f, Object.keys(t.colors).length, "colors,", t.tokenColors.length, "token rules");
+              } catch (e) { console.error(f, e.message); bad = 1; }
+            }
+            process.exit(bad);
+          '
+
+      - name: Package extension
+        run: bunx @vscode/vsce@3.6.0 package -o moonic.vsix
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: moonic-vsix
+          path: moonic.vsix
+          retention-days: 14
