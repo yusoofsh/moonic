@@ -2,6 +2,11 @@
 
 All notable updates, improvements, and fixes to Moonic.
 
+## [0.8.3] - 2026-11-18
+
+### Changed
+- Removed the blue outline VS Code draws around the focused editor area (`focusBorder` is now transparent in all three themes). Individual inputs and buttons keep their own focus colors
+
 ## [0.8.2] - 2026-11-16
 
 ### Changed

@@ -10,7 +10,7 @@
     "pub": "vsce publish"
   },
   "publisher": "yusoofsh",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "engines": {
     "vscode": "^1.109.0"
   },

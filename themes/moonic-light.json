@@ -334,7 +334,7 @@
     "extensionIcon.sponsorForeground": "#a52040",
     "extensionIcon.starForeground": "#6e5818",
     "extensionIcon.verifiedForeground": "#135868",
-    "focusBorder": "#3d59a1",
+    "focusBorder": "#00000000",
     "foreground": "#46506f",
     "git.blame.editorDecorationForeground": "#55607f",
     "gitDecoration.addedResourceForeground": "#135868",
